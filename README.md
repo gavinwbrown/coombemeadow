@@ -1,6 +1,6 @@
 Intro
 
-A landing page built to help with SEO for a holiday property primarily hosted on Air BnB
+A landing page built to help with SEO for a holiday property primarily hosted on Air BnB. Will be using a custom domain with Github Pages hosting the site.
 
 Tech
 
