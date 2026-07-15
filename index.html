@@ -11,18 +11,22 @@
      <link rel="stylesheet" href="assets/css/bootstrap.css" type="text/css">
      <link rel="canonical" href="https://example.com"/> <!--PUT ACTUAL ADDRESS IN HERE WHEN KNOWN --> 
 </head>
-<header class="rounded-3">
+<header class="rounded-3 mb-3">
+    <nav role="navigation">
     <div class="row m-0 justify-content-center">
         <div class="col p-3 text-center text-primary-emphasis bg-danger-subtle border border-primary-subtle rounded-3">This is the HEADER</div>
     </div>
+    </nav>
 </header>
 <body class="web-width">
-    <div class="vertical-center">
+    <main role="main">
+    <div class="center-display">
+        <div class="vertical-cente">
         <div class="row m-0">
             <div class="col-12 col-lg-6 p-3 mb-lg-3 text-center text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 div-height">
             Example Div
             </div>
-            <div class="col p-3 text-center text-primary-emphasis bg-danger-subtle border border-primary-subtle rounded-3 div-height">
+            <div class="ol-12 col-lg-6 p-3 mb-lg-3 text-center text-primary-emphasis bg-danger-subtle border border-primary-subtle rounded-3 div-height">
             Example Div
             </div>
         </div>
@@ -30,7 +34,7 @@
             <div class="col-12 col-lg-6 p-3 mb-lg-3 text-center text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 div-height">
             Example Div
             </div>
-            <div class="col p-3 text-center text-primary-emphasis bg-danger-subtle border border-primary-subtle rounded-3 div-height">
+            <div class="ol-12 col-lg-6 p-3 mb-lg-3 text-center text-primary-emphasis bg-danger-subtle border border-primary-subtle rounded-3 div-height">
             Example Div
             </div>
         </div>
@@ -38,17 +42,20 @@
             <div class="col-12 col-lg-6 p-3 mb-lg-3 text-center text-primary-emphasis bg-primary-subtle border border-primary-subtle rounded-3 div-height">
             Example Div
             </div>
-            <div class="col p-3 text-center text-primary-emphasis bg-danger-subtle border border-primary-subtle rounded-3 div-height">
+            <div class="ol-12 col-lg-6 p-3 mb-lg-3 text-center text-primary-emphasis bg-danger-subtle border border-primary-subtle rounded-3 div-height">
             Example Div
             </div>
         </div>
         </div>
     </div>
-    <script src="assets/js/bootstrap.bundle.js"></script>
+    </main>
+    <script src="assets/js/bootstrap.js"></script>
 </body>
-<footer class="web-width rounded-3">
+<footer class="rounded-3" role="contentinfo">
     <div class="row justify-content-center">
-    <div class="col-12 col-lg-6 p-3 text-center text-primary-emphasis bg-warning-subtle border border-primary-subtle rounded-3">This is the footer</div>
+    <div class="col-12 col-lg-6 p-3 text-center bg-danger rounded-3">
+        <a href="https://www.airbnb.co.uk/" class="no-underline button fs-3 text-white text-bold">Click Here to Book on Air BnB</a>
+    </div>
     </div>
 </footer>
 </html>

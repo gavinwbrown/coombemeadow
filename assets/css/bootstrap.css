@@ -12062,13 +12062,12 @@ body {
     display: flex;  /* set css display to flex */
     flex-direction: column; /* set flex direction to column */
     min-height: 100dvh; /* set minimum height to 100dvh of the viewport height */
-    
 }
 
 footer {
     width: 100%;
     margin-top: auto; /* this fixes the footer to bottom of the body */
-    background-color: black;
+    background-color: green;
     padding: 2rem;
     color: white;
     display: flex;
@@ -12076,8 +12075,7 @@ footer {
 }
 
 header {
-    width: 100%;
-    background-color: black;
+    width: 100%;    background-color: green;
     padding: 2rem;
     color: white;
     display: flex;
@@ -12107,10 +12105,24 @@ header {
   justify-content: center; /* Centers horizontally */
   align-items: center;     /* Centers vertically */
   width: 100%;             /* Fills the screen width */
-  height: 100vh;           /* Fills the screen height (optional) */
+  height: 100dvh;           /* Fills the screen height (optional) */
 }
 
 .image-container img {
   max-width: 100%;  /* Shrinks the image if the screen is smaller than the image */
   height: auto;     /* Maintains the correct aspect ratio */
+}
+
+.no-underline {
+  text-decoration: none;
+}
+
+.center-display {
+  min-width: 100%;
+	margin:0;
+  display: flex;
+	justify-content: center;
+  align-items: center;
+	height:80vh;
+	
 }
