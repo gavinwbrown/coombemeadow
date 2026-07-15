@@ -12101,3 +12101,16 @@ header {
 .footer-center {
   margin: 0 auto;
 }
+
+.image-container {
+  display: flex;
+  justify-content: center; /* Centers horizontally */
+  align-items: center;     /* Centers vertically */
+  width: 100%;             /* Fills the screen width */
+  height: 100vh;           /* Fills the screen height (optional) */
+}
+
+.image-container img {
+  max-width: 100%;  /* Shrinks the image if the screen is smaller than the image */
+  height: auto;     /* Maintains the correct aspect ratio */
+}
