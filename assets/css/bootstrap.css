@@ -12048,3 +12048,44 @@ textarea.form-control-lg {
 }
 
 /*# sourceMappingURL=bootstrap.css.map */
+
+/* custom css for website */
+
+/*
+    attach footer to bottom of display or bottom of content
+    whichever is biggest
+*/
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;  /* set css display to flex */
+    flex-direction: column; /* set flex direction to column */
+    min-height: 100dvh; /* set minimum height to 100dvh of the viewport height */
+    align-items: center;
+}
+
+footer {
+    width: 100%;
+    margin-top: auto; /* this fixes the footer to bottom of the body */
+    background-color: black;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: start; */
+}
+
+.div-height {
+    height: 20dvh
+}
+
+/* max width of website */
+.web-width {
+    max-width: 1200px;
+    margin: 0 auto; /* centers website horizontally */
+}
+
+.vertical-center {
+  margin: auto 0;
+}
