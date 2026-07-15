@@ -12062,7 +12062,7 @@ body {
     display: flex;  /* set css display to flex */
     flex-direction: column; /* set flex direction to column */
     min-height: 100dvh; /* set minimum height to 100dvh of the viewport height */
-    align-items: center;
+    
 }
 
 footer {
@@ -12073,7 +12073,15 @@ footer {
     color: white;
     display: flex;
     flex-direction: column;
-    /* justify-content: start; */
+}
+
+header {
+    width: 100%;
+    background-color: black;
+    padding: 2rem;
+    color: white;
+    display: flex;
+    flex-direction: column;
 }
 
 .div-height {
@@ -12088,4 +12096,8 @@ footer {
 
 .vertical-center {
   margin: auto 0;
+}
+
+.footer-center {
+  margin: 0 auto;
 }
