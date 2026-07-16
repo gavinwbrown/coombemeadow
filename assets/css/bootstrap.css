@@ -12092,10 +12092,6 @@ header {
     margin: 0 auto; /* centers website horizontally */
 }
 
-.vertical-center {
-  margin: auto 0;
-}
-
 .footer-center {
   margin: 0 auto;
 }
@@ -12117,12 +12113,6 @@ header {
   text-decoration: none;
 }
 
-.center-display {
-  min-width: 100%;
-	margin:0;
-  display: flex;
-	justify-content: center;
-  align-items: center;
-	height:80vh;
-	
+.min-height {
+  min-height: 80dvh;
 }
