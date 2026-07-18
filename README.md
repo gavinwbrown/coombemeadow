@@ -9,6 +9,7 @@ Tech
 - FreeConvert to convert images to WebP format - [FreeConvert](https://www.freeconvert.com/)
 - Lorem Ipsum placeholder text used during development - [Lorum Ipsum](https://www.lipsum.com/)
 - Grok - placeholder ai image generation used during development - [Grok](https://grok.com/)
+- Image Compressor - completely free in browser image compression - [Image Compressor](https://imagecompressor.com/)
 
 Build
 
