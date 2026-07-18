@@ -12116,3 +12116,11 @@ header {
 .min-height {
   min-height: 85dvh;
 }
+
+/* removes hamburger highlighted surround when toggled */
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
