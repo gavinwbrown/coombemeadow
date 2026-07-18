@@ -12083,7 +12083,7 @@ header {
 }
 
 .div-height {
-    height: 20dvh
+    min-height: 20dvh
 }
 
 /* max width of website */
@@ -12191,7 +12191,10 @@ header {
             cursor: pointer;
         }
 
-        .home-item {
-          width: 100%;
-          height: auto;
+        .bg-green-subtle {
+          background: rgb(189, 239, 189);
+        }
+
+        .bg-grey-subtle {
+          background: rgb(228, 225, 225);
         }
