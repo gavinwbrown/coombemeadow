@@ -12188,3 +12188,46 @@ header {
 .bg-grey-subtle {
   background: rgb(228, 225, 225);
 }
+
+/* google ai font css */
+:root {
+  /* Font Stacks */
+  --font-header: 'Robot Mono', sans-serif;
+  --font-body: 'Playwrite NZ Basic', cursive;
+  --font-footer: 'Roboto Mono', sans-serif;
+
+  /* Sizing scale to keep handwriting legible */
+  --text-base: 1.15rem; 
+  --text-h1: 2.5rem;
+  --text-footer: 1.15rem;
+}
+
+/* Global Reset & Body */
+body {
+  font-family: var(--font-body);
+  font-size: var(--text-base);
+  line-height: 1.6;
+}
+
+/* Structured Headers */
+header, h1, h2, h3, h4 {
+  font-family: var(--font-header);
+  font-weight: 500; /* Bold weights balance cursive text well */
+  letter-spacing: -0.02em; /* Tightens Work Sans for headers */
+}
+
+h1 {
+  font-size: var(--text-h1);
+}
+
+/* Clean, Readable Footer */
+footer, footer a {
+  font-family: var(--font-footer);
+  font-size: var(--text-footer);
+  font-weight: 400;
+  letter-spacing: 0.01em;
+}
+
+.f-roboto-mono {
+  font-family: 'Roboto Mono', sans-serif;
+}
