@@ -12064,7 +12064,7 @@ body {
 footer {
   width: 100%;
   margin-top: auto; /* this fixes the footer to bottom of the body */
-  background-color: green;
+  background-color: rgb(8, 101, 8);
   padding: 2rem;
   color: white;
   display: flex;
@@ -12072,7 +12072,7 @@ footer {
 }
 
 header {
-  width: 100%;    background-color: green;
+  width: 100%;    background-color: rgb(8, 101, 8);
   padding: 2rem;
   color: white;
   display: flex;
@@ -12093,6 +12093,10 @@ header {
   margin: 0 auto;
 }
 
+.air-color {
+  background-color: rgb(207, 13, 13);
+}
+
 .image-container {
   display: flex;
   justify-content: center; /* Centers horizontally */
@@ -12108,6 +12112,11 @@ header {
 
 .no-underline {
   text-decoration: none;
+}
+
+.gav-color {
+  color: white;
+  font-size: 1.25rem;;
 }
 
 .min-height {
