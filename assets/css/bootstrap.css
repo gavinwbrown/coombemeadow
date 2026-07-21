@@ -12127,6 +12127,10 @@ header {
   border-bottom: 1px solid grey;
 }
 
+.top-style {
+  border-top: 1px solid grey;
+}
+
 .img-style {
   box-shadow: grey 2px 2px 10px;;
 }
