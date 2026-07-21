@@ -12114,6 +12114,14 @@ header {
   min-height: 85dvh;
 }
 
+.row-style {
+  border-bottom: 1px solid grey;
+}
+
+.img-style {
+  box-shadow: grey 2px 2px 10px;;
+}
+
 /* removes hamburger highlighted surround and border when toggled */
 .navbar-toggler,
 .navbar-toggler:focus,
@@ -12179,14 +12187,6 @@ header {
   font-size: 40px;
   font-weight: bold;
   cursor: pointer;
-}
-
-.bg-green-subtle {
-  background: rgb(189, 239, 189);
-}
-
-.bg-grey-subtle {
-  background: rgb(228, 225, 225);
 }
 
 /* google ai font css */
