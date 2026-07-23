@@ -12,15 +12,24 @@ Tech
 - Grok - placeholder ai image generation used during development - [Grok](https://grok.com/)
 - Image Compressor - completely free in browser image compression - [Image Compressor](https://imagecompressor.com/)
 - Squarespace - custom domains - [Squarespace](https://www.squarespace.com/)
+- Favicon icon generator - [favicon.io](https://favicon.io/)
+- testing a sites responsive - [amiresponsive](https://amiresponsive.co.uk/)
 
 Build
+
+The build utilises HTML5, plus CSS and JS from Bootstrap with additional custom code where needed. 
+The site is fully commented and conforms to the latest standards in design.
 
 
 Testing
 
-Basic site responsiveness testing completed using Google Lighthouse
+Basic site responsiveness testing completed using Google Lighthouse & amiresponsive.co.uk
+
 ![alt text](assets/img/glighthouse_test.png)
 
+![alt text](assets/img/amiresponsive.png)
+
+Further testing has been carried out using an iPhone 17, iPad Air M4 and an Android Invens Note 15p
 
 Acknowledgements
 
