@@ -19,7 +19,7 @@ Build
 Testing
 
 Basic site responsiveness testing completed using Google Lighthouse
-![alt text](image.png))
+![alt text](assets/img/glighthouse_test.png)
 
 
 Acknowledgements
