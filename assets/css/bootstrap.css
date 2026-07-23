@@ -12132,7 +12132,11 @@ header {
 }
 
 .img-style {
-  box-shadow: grey 2px 2px 10px;;
+  box-shadow: grey 2px 2px 10px;
+}
+
+.text-style {
+  background-color: rgb(243, 243, 243);
 }
 
 /* removes hamburger highlighted surround and border when toggled */
