@@ -1,6 +1,6 @@
 Intro
 
-A landing page built to help with SEO for a holiday property primarily hosted on Air BnB. Will be using a custom domain with Github Pages hosting the site.
+A landing page built to help with SEO for a holiday property primarily hosted on Air BnB. Deployed using a custom domain with Github Pages hosting the site.
 
 Tech
 
@@ -11,11 +11,15 @@ Tech
 - Lorem Ipsum placeholder text used during development - [Lorum Ipsum](https://www.lipsum.com/)
 - Grok - placeholder ai image generation used during development - [Grok](https://grok.com/)
 - Image Compressor - completely free in browser image compression - [Image Compressor](https://imagecompressor.com/)
+- Squarespace - custom domains - [Squarespace](https://www.squarespace.com/)
 
 Build
 
 
 Testing
+
+Basic site responsiveness testing completed using Google Lighthouse
+![alt text](image.png))
 
 
 Acknowledgements
