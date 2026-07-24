@@ -18,7 +18,8 @@ Tech
 Build
 
 The build utilises HTML5, plus CSS and JS from Bootstrap with additional custom code where needed. 
-The site is fully commented and conforms to the latest standards in design.
+The site is fully commented and conforms to the latest standards in design. Not all images in the gallery are being displayed. 
+This allows for some image swapping to freshen up the gallery if needed.
 
 
 Testing
